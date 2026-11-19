@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio académico del proyecto final de Arquitectura de Computadoras.">
+  <title>Arquitectura de Computadoras | Proyecto final</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <span class="brand-mark">AC</span>
+      <span>ARQUITECTURA<span class="brand-light"> DE COMPUTADORAS</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#temario">Temario</a>
+      <a href="#entregables">Entregables</a>
+      <a href="#acerca">Acerca del proyecto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> PORTAFOLIO ACADÉMICO · PROYECTO FINAL</div>
+        <h1>Explorando la<br><span>arquitectura</span><br>de una computadora.</h1>
+        <p class="hero-text">Un recorrido por los fundamentos, componentes y funcionamiento de los sistemas de cómputo, acompañado de las actividades y evidencias realizadas durante el semestre.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#entregables">Ver trabajos <span>↗</span></a>
+          <a class="text-link" href="#temario">Explorar temario <span>↓</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>04</strong><span>Unidades</span></div>
+          <div><strong>09</strong><span>Documentos</span></div>
+          <div><strong>01</strong><span>Proyecto final</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración decorativa de un procesador">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="chip">
+          <div class="chip-inner">
+            <span class="chip-label">CPU</span>
+            <span class="chip-name">CORE<br>PROCESSING<br>UNIT</span>
+            <span class="chip-lines"></span>
+          </div>
+          <i class="pin p1"></i><i class="pin p2"></i><i class="pin p3"></i><i class="pin p4"></i>
+          <i class="pin p5"></i><i class="pin p6"></i><i class="pin p7"></i><i class="pin p8"></i>
+        </div>
+        <span class="float-tag tag-top">01 / HARDWARE</span>
+        <span class="float-tag tag-bottom">DATA · LOGIC · MEMORY</span>
+        <span class="spark spark-one">✳</span><span class="spark spark-two">✦</span>
+      </div>
+    </section>
+
+    <section class="intro-band">
+      <div class="section-wrap intro-inner">
+        <p>EL OBJETIVO</p>
+        <h2>Comprender cómo se organiza, procesa y comunica la información dentro de un equipo de cómputo.</h2>
+        <span class="intro-index">01 — 04</span>
+      </div>
+    </section>
+
+    <section class="section-wrap content-section" id="temario">
+      <div class="section-heading">
+        <div><span class="eyebrow">CONTENIDO DEL SEMESTRE</span><h2>Temario por unidades</h2></div>
+        <p>Los temas se presentan siguiendo la organización del temario de la materia.</p>
+      </div>
+      <div class="unit-grid">
+        <article class="unit-card unit-featured">
+          <div class="unit-top"><span class="unit-number">01</span><span class="unit-chip">Fundamentos</span></div>
+          <h3>Arquitectura de computadoras</h3>
+          <ul>
+            <li><b>Modelos:</b> clásicas, segmentadas y de multiprocesamiento.</li>
+            <li><b>Componentes:</b> arquitectura, CPU, unidad aritmética lógica, registros y buses.</li>
+            <li><b>Memoria:</b> conceptos básicos, memoria principal y caché.</li>
+            <li><b>Entrada/salida:</b> módulos, E/S programada, interrupciones, DMA, canales y procesadores.</li>
+            <li><b>Buses:</b> tipos, estructura y jerarquías.</li>
+            <li>Interrupciones.</li>
+          </ul>
+          <span class="unit-watermark">01</span>
+        </article>
+        <article class="unit-card">
+          <div class="unit-top"><span class="unit-number">02</span><span class="unit-chip">Procesador</span></div>
+          <h3>Estructura y funcionamiento de la CPU</h3>
+          <ul>
+            <li>Organización del procesador.</li>
+            <li>Estructura de registros: visibles para el usuario, de control y de estados.</li>
+            <li>Ejemplos de organización de registros de CPU reales.</li>
+            <li>Ciclo de instrucción: Fetch–Decode–Execute.</li>
+            <li>Segmentación de instrucciones.</li>
+            <li>Conjunto de instrucciones: características y funciones.</li>
+            <li>Modos de direccionamiento y formatos.</li>
+          </ul>
+          <span class="unit-watermark">02</span>
+        </article>
+        <article class="unit-card">
+          <div class="unit-top"><span class="unit-number">03</span><span class="unit-chip">Hardware</span></div>
+          <h3>Selección de componentes para ensamble</h3>
+          <ul>
+            <li>Chip Set.</li>
+            <li>Aplicaciones.</li>
+            <li>Ambientes de servicio.</li>
+          </ul>
+          <span class="unit-watermark">03</span>
+        </article>
+        <article class="unit-card unit-dark">
+          <div class="unit-top"><span class="unit-number">04</span><span class="unit-chip">Rendimiento</span></div>
+          <h3>Procesamiento paralelo</h3>
+          <p>Estudio del procesamiento de múltiples operaciones de manera simultánea para aprovechar los recursos de cómputo.</p>
+          <span class="unit-watermark">04</span>
+        </article>
+      </div>
+      <p class="syllabus-note">Nota: En la imagen del temario, la Unidad 4 aparece únicamente con el título “Procesamiento paralelo”; por eso no se agregan subtemas específicos.</p>
+    </section>
+
+    <section class="deliverables-section" id="entregables">
+      <div class="section-wrap content-section">
+        <div class="section-heading">
+          <div><span class="eyebrow">EVIDENCIAS Y ACTIVIDADES</span><h2>Entregables del semestre</h2></div>
+          <p>Consulta o descarga los archivos PDF. Los documentos se abrirán en una pestaña nueva.</p>
+        </div>
+        <div class="filter-row">
+          <div class="filter-tabs" role="group" aria-label="Filtrar documentos">
+            <button class="filter active" data-filter="todos">Todos <span>09</span></button>
+            <button class="filter" data-filter="practica">Reportes <span>04</span></button>
+            <button class="filter" data-filter="tarea">Tareas <span>02</span></button>
+            <button class="filter" data-filter="proyecto">Diseño y cotización <span>03</span></button>
+          </div>
+          <span class="file-hint">PDF · ARCHIVOS DEL CURSO</span>
+        </div>
+        <div class="documents-grid" id="documentsGrid">
+          <article class="doc-card" data-category="practica"><div class="doc-icon">PDF</div><div class="doc-info"><span class="doc-type">REPORTE DE PRÁCTICA</span><h3>Reporte de práctica 1</h3><p>Evidencia y desarrollo de la primera práctica.</p><a href="pdfs/Reporte P.1.pdf" target="_blank" rel="noopener">Abrir documento <span>↗</span></a></div><span class="doc-count">01</span></article>
+          <article class="doc-card" data-category="practica"><div class="doc-icon">PDF</div><div class="doc-info"><span class="doc-type">REPORTE DE PRÁCTICA</span><h3>Reporte de práctica 2</h3><p>Evidencia y desarrollo de la segunda práctica.</p><a href="pdfs/Reporte P.2.pdf" target="_blank" rel="noopener">Abrir documento <span>↗</span></a></div><span class="doc-count">02</span></article>
+          <article class="doc-card" data-category="practica"><div class="doc-icon">PDF</div><div class="doc-info"><span class="doc-type">REPORTE DE PRÁCTICA</span><h3>Reporte de práctica 3</h3><p>Evidencia y desarrollo de la tercera práctica.</p><a href="pdfs/Reporte P.3.pdf" target="_blank" rel="noopener">Abrir documento <span>↗</span></a></div><span class="doc-count">03</span></article>
+          <article class="doc-card" data-category="practica"><div class="doc-icon">PDF</div><div class="doc-info"><span class="doc-type">REPORTE DE PRÁCTICA</span><h3>Reporte de práctica 4</h3><p>Evidencia y desarrollo de la cuarta práctica.</p><a href="pdfs/Reporte P.4.pdf" target="_blank" rel="noopener">Abrir documento <span>↗</span></a></div><span class="doc-count">04</span></article>
+          <article class="doc-card" data-category="tarea"><div class="doc-icon">PDF</div><div class="doc-info"><span class="doc-type">TAREA</span><h3>Tarea 1</h3><p>Actividad correspondiente a la primera unidad.</p><a href="pdfs/Tarea 1.pdf" target="_blank" rel="noopener">Abrir documento <span>↗</span></a></div><span class="doc-count">05</span></article>
+          <article class="doc-card" data-category="tarea"><div class="doc-icon">PDF</div><div class="doc-info"><span class="doc-type">TAREA · UNIDAD 3</span><h3>Tarea 1 U3</h3><p>Actividad correspondiente a la Unidad 3.</p><a href="pdfs/Tarea 1 U3.pdf" target="_blank" rel="noopener">Abrir documento <span>↗</span></a></div><span class="doc-count">06</span></article>
+          <article class="doc-card" data-category="proyecto"><div class="doc-icon">PDF</div><div class="doc-info"><span class="doc-type">INVESTIGACIÓN</span><h3>Gamas de los equipos de cómputo</h3><p>Clasificación de equipos de cómputo por gamas.</p><a href="pdfs/Gamas de los eq de computo.pdf" target="_blank" rel="noopener">Abrir documento <span>↗</span></a></div><span class="doc-count">07</span></article>
+          <article class="doc-card" data-category="proyecto"><div class="doc-icon">PDF</div><div class="doc-info"><span class="doc-type">PROYECTO</span><h3>Diseño de equipos</h3><p>Propuesta de configuración de los equipos de cómputo.</p><a href="pdfs/Diseño de equipos.pdf" target="_blank" rel="noopener">Abrir documento <span>↗</span></a></div><span class="doc-count">08</span></article>
+          <article class="doc-card" data-category="proyecto"><div class="doc-icon">PDF</div><div class="doc-info"><span class="doc-type">PROYECTO</span><h3>Cotización de equipos</h3><p>Comparación de costos de los equipos y sus componentes.</p><a href="pdfs/Cotizacion de equipos.pdf" target="_blank" rel="noopener">Abrir documento <span>↗</span></a></div><span class="doc-count">09</span></article>
+        </div>
+        <div class="empty-state" id="emptyState" hidden>No hay documentos en esta categoría.</div>
+      </div>
+    </section>
+
+    <section class="section-wrap about-section" id="acerca">
+      <div class="about-card">
+        <div class="about-symbol">⌘</div>
+        <div><span class="eyebrow">PROYECTO FINAL</span><h2>Del concepto a la práctica.</h2><p>Este espacio reúne los temas estudiados y los trabajos realizados durante el semestre en la materia de Arquitectura de Computadoras. Su propósito es organizar las evidencias y mostrar el aprendizaje obtenido sobre los componentes, la estructura y el funcionamiento de los equipos de cómputo.</p></div>
+        <div class="about-side"><span>ARQUITECTURA</span><strong>2026</strong><span>PORTAFOLIO DIGITAL</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="section-wrap footer-inner"><span>ARQUITECTURA DE COMPUTADORAS</span><span>Proyecto final · 2026</span><a href="#inicio">Volver arriba ↑</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
